@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Logo Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1> AI Logo Generator</h1>
+
+    <p>
+        Generate professional SVG logo concepts for your brand.
+    </p>
+
+    <form id="logoForm">
+
+        <label for="brandName">
+            Brand Name
+        </label>
+
+        <input
+            type="text"
+            id="brandName"
+            placeholder="Enter brand name"
+            required>
+
+        <label for="description">
+            Brand Description
+        </label>
+
+        <textarea
+            id="description"
+            placeholder="Describe your brand..."
+            required></textarea>
+
+        <label for="industry">
+            Industry Type
+        </label>
+
+        <input
+            type="text"
+            id="industry"
+            placeholder="Technology, Fashion, Food..."
+            required>
+
+        <label for="audience">
+            Target Audience
+        </label>
+
+        <input
+            type="text"
+            id="audience"
+            placeholder="Students, Professionals..."
+            required>
+
+        <button
+            type="submit"
+            id="generateBtn">
+
+            🚀 Generate Logos
+
+        </button>
+
+    </form>
+
+</div>
+
+<section
+id="results"
+class="results">
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
